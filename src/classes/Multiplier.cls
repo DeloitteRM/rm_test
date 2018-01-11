@@ -4,4 +4,8 @@ public class Multiplier {
          num *= 3;
       }
    }
+
+   public Integer plus(Integer a, Integer b){
+       return a + b;
+   }
 }
