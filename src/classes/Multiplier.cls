@@ -10,7 +10,7 @@ public class Multiplier {
    }
 
    public Integer divide(Integer a, Integer b){
-       return a + b;
+       return a / b;
    }
 
 }
