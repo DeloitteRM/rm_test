@@ -10,4 +10,23 @@ public class Test_Multiplier {
         System.assertEquals(2, numbers[1]);
         System.assertEquals(3, numbers[2]);
     }
+
+    @isTest
+    public static void testPlus(){
+        Multiplier m = new Multiplier();
+
+        System.assertEquals(1, m.plus(1, 0));
+        System.assertEquals(2, m.plus(2, 0));
+        System.assertEquals(3, m.plus(3, 0));
+        System.assertEquals(4, m.plus(4, 0));
+    }
+
+    @isTest
+    public static void testDivide(){
+        Multiplier m = new Multiplier();
+
+        System.assertEquals(2, m.divide(2, 1));
+        System.assertEquals(4, m.divide(8, 2));
+        System.assertEquals(8, m.divide(16, 2));
+    }
 }
