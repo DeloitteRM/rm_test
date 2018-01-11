@@ -168,6 +168,7 @@
         <formula>if(isblank(BillingCity),ShippingCity,BillingCity)</formula>
         <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
         <label>${account.name}</label>
+        <description>${account.description}</description>
         <required>false</required>
         <trackHistory>false</trackHistory>
         <type>Text</type>
