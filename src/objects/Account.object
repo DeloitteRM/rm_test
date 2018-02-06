@@ -167,7 +167,8 @@
         <externalId>false</externalId>
         <formula>if(isblank(BillingCity),ShippingCity,BillingCity)</formula>
         <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
-        <label>Account City Test</label>
+        <label>${account.name}</label>
+        <description>${account.description}</description>
         <required>false</required>
         <trackHistory>false</trackHistory>
         <type>Text</type>
